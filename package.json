@@ -1,0 +1,25 @@
+{
+  "name": "archive-bot",
+  "version": "1.0.0",
+  "description": "Archive links in discord to archive.is",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolirisme/discord-archiver-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "archive.is",
+    "archiver",
+    "bot"
+  ],
+  "author": "coolirisme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coolirisme/discord-archiver-bot/issues"
+  },
+  "homepage": "https://github.com/coolirisme/discord-archiver-bot#readme"
+}
