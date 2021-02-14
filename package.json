@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/coolirisme/discord-archiver-bot/issues"
   },
-  "homepage": "https://github.com/coolirisme/discord-archiver-bot#readme"
+  "homepage": "https://github.com/coolirisme/discord-archiver-bot#readme",
+  "dependencies": {
+    "archive.is": "^0.0.2",
+    "discord.js": "^12.5.1",
+    "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.1"
+  }
 }
