@@ -1,0 +1,14 @@
+[Unit]
+Description=Runs archivebot
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/root/discord-archiver-bot
+ExecStart=/root/discord-archiver-bot/index.js
+TimeoutStartSec=0
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=default.target

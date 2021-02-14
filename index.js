@@ -15,6 +15,8 @@ const init = async () => {
   client.user.setActivity('and archiving links', { name: 'Watching', type: "WATCHING" });
 }
 
+//Handlers
+
 init().then(() => {
 
 }).catch((error) => {
